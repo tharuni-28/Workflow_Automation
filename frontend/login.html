@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="login-container">
+    <h2>🔐 Login</h2>
+
+    <input type="email" id="email" placeholder="Enter email">
+    <input type="password" id="password" placeholder="Enter password">
+
+    <button onclick="login()">Login</button>
+    <p id="error"></p>
+  </div>
+
+  <script>
+    // ✅ Already logged-in check (IMPORTANT)
+    if (localStorage.getItem("token")) {
+      window.location.href = "index.html";
+    }
+
+    function login() {
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+
+      fetch("http://localhost:3000/auth/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ email, password })
+      })
+      .then(res => res.json())
+      .then(data => {
+        if (data.token) {
+          localStorage.setItem("token", data.token);
+
+          // ✅ Store login session
+          localStorage.setItem("isLoggedIn", "true");
+
+          window.location.href = "index.html";
+        } else {
+          document.getElementById("error").innerText = "Invalid login ❌";
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>
