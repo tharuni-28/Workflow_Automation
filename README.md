@@ -323,11 +323,3 @@ These are known gaps, listed openly:
 - [ ] More actions (Slack, SMS) and more event types
 - [ ] Deployment with a hosted database and an HTTPS email provider
 
----
-
-## Author
-
-**Tharunika**
-GitHub: [@your-username](https://github.com/your-username)
-
-Built as a learning project to understand event-driven design, authentication, role-based access control and reliable background work in a Node.js backend.
