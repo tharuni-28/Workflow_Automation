@@ -281,19 +281,19 @@ Add your images to `docs/screenshots/` and keep these file names, or change the 
 
 | Admin dashboard | Rule execution with retries |
 |---|---|
-| ![Admin dashboard]<img width="1917" height="907" alt="Screenshot 2026-10-18 110250" src="https://github.com/user-attachments/assets/f04a658a-7fa5-47ec-8917-07f36f6ba07c" />
- | ![Retries and failure](docs/screenshots/retries.png) |
+| [Admin dashboard]<img width="1917" height="907" alt="Screenshot 2026-10-18 110250" src="https://github.com/user-attachments/assets/f04a658a-7fa5-47ec-8917-07f36f6ba07c" />
+ 
 
 | Signup | Login |
 |---|---|
-| ![Signup page]<img width="427" height="592" alt="Screenshot 2026-10-18 110350" src="https://github.com/user-attachments/assets/361acc67-08c8-4635-93f5-55327a608c5c" />
-| ![Login page]<img width="576" height="532" alt="Screenshot 2026-10-17 231630" src="https://github.com/user-attachments/assets/038c555c-6d7f-4900-879c-80c389f42c75" />
+| [Signup page]<img width="427" height="592" alt="Screenshot 2026-10-18 110350" src="https://github.com/user-attachments/assets/361acc67-08c8-4635-93f5-55327a608c5c" />
+| [Login page]<img width="576" height="532" alt="Screenshot 2026-10-17 231630" src="https://github.com/user-attachments/assets/038c555c-6d7f-4900-879c-80c389f42c75" />
 |
 
 | Welcome email | Admin notification email |
 |---|---|
-| ![Welcome email]<img width="1073" height="780" alt="Screenshot 2026-10-19 091627" src="https://github.com/user-attachments/assets/71e20b06-cc80-4ab9-8e70-8ed0cc360f5e" />
- | ![Admin email]<img width="1490" height="806" alt="Screenshot 2026-10-19 091813" src="https://github.com/user-attachments/assets/2449329d-5c58-49e3-9ca6-f8ae87339255" />
+| [Welcome email]<img width="1073" height="780" alt="Screenshot 2026-10-19 091627" src="https://github.com/user-attachments/assets/71e20b06-cc80-4ab9-8e70-8ed0cc360f5e" />
+ | [Admin email]<img width="1490" height="806" alt="Screenshot 2026-10-19 091813" src="https://github.com/user-attachments/assets/2449329d-5c58-49e3-9ca6-f8ae87339255" />
 
  |
 
